@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class HexUtil {
 
-    public static final String HexUpper = "0123456789ABCDEF";
+    //public static final String HexUpper = "0123456789ABCDEF";
 
     public static String stringFromByteArray(byte[] bytes) {
         if (null == bytes || 0 == bytes.length) {
